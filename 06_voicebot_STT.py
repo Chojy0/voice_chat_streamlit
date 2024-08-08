@@ -114,7 +114,7 @@ def main():
             # GPT 모델에 넣을 프롬프트를 위해 질문 내용 저장
             st.session_state["messages"] = st.session_state["messages"] + [{"role": "user", "content": question}]
 
-    with col2:
+    with col2:\
         # 오른쪽 영역 작성
         st.subheader("질문/답변")
 
