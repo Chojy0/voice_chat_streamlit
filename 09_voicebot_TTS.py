@@ -19,7 +19,7 @@ from datetime import datetime
 import base64
 
 # Open AI API 키 설정하기
-api_key = os.environ.get('OPEN_API_KEY')
+api_key = os.environ.get('open_api_key')
 
 client = openai.OpenAI(api_key=api_key)
 
